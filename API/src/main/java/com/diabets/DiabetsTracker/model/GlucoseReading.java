@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 public class GlucoseReading {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long gId;
+    private Long id;
 
     @Column(nullable = false)
     @DateTimeFormat(pattern = "YYYY-MM-dd HH:mm")

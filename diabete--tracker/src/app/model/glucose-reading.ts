@@ -1,5 +1,5 @@
 export class GlucoseReading {
-  gId ! :number;
+  id ! :number;
   dateAndTime !:Date;
   level !:number;
 

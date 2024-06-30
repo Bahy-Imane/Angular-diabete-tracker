@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import {Observable, tap} from 'rxjs';
 import { GlucoseReading } from '../model/glucose-reading';
 @Injectable({
   providedIn: 'root'
@@ -9,8 +9,11 @@ export class GlucoseReadingService {
   private apiUrl = 'http://localhost:8081/api/glucose';
   constructor(private http: HttpClient) { }
 
+
   findAll(): Observable<GlucoseReading[]> {
-    return this.http.get<GlucoseReading[]>(this.apiUrl);
+    return this.http.get<GlucoseReading[]>(this.apiUrl).pipe(
+      tap(data => console.log('API data:', data))
+    );
   }
 
   save(glucoseReading: GlucoseReading): Observable<GlucoseReading> {

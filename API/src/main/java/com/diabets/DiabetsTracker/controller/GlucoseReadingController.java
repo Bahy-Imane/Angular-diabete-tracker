@@ -29,7 +29,7 @@ public class GlucoseReadingController {
 
     @PutMapping("/{id}")
     public GlucoseReading updateGlucoseReading(@RequestParam Long id , @RequestBody GlucoseReading glucoseReading) {
-        glucoseReading.setGId(id);
+        glucoseReading.setId(id);
         return glucoseReadingService.saveGlucoseReading(glucoseReading);
     }
 
