@@ -1,18 +1,19 @@
-import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
-import {ActivatedRoute, Router, RouterOutlet} from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
+import {Router, RouterOutlet} from '@angular/router';
 import { GlucoseReadingService } from '../service/glucose-service.service';
-
 
 @Component({
   selector: 'app-glucose-form',
   templateUrl: './glucose-form.component.html',
-  styleUrls: ['./glucose-form.component.css'],
   standalone: true,
-  imports: [FormsModule, RouterOutlet, ReactiveFormsModule]
+  imports: [
+    RouterOutlet,
+    ReactiveFormsModule
+  ],
+  styleUrls: ['./glucose-form.component.css']
 })
-
-export class GlucoseFormComponent  implements OnInit {
+export class GlucoseFormComponent implements OnInit {
   glucoseReadingForm: FormGroup;
 
   constructor(
@@ -36,4 +37,3 @@ export class GlucoseFormComponent  implements OnInit {
     }
   }
 }
-

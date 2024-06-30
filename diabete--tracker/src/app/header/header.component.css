@@ -1,42 +1,46 @@
-/* Couleur de fond de l'en-tête */
-header {
-  background-color: #ffffff; /* Blanc */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Couleur du texte de la marque et des liens de navigation */
-.navbar-brand,
-.navbar-nav .nav-link {
-  color: #333333; /* Couleur du texte */
+.navbar-custom {
+  background-color: #3498db;
+  padding: 10px 0;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar-logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-/* Lien actif dans la barre de navigation */
-.navbar-nav .nav-item.active .nav-link {
-  font-weight: bold; /* Texte en gras pour le lien actif */
+.header-buttons {
+  display: flex;
 }
 
-/* Espacement autour du texte de la marque */
-.navbar-brand {
-  padding: 0.5rem 1rem;
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
 }
 
-/* Espacement autour des liens de navigation */
-.navbar-nav .nav-link {
-  padding: 0.5rem 1rem;
+.btn-green {
+  background-color: darkslateblue;
 }
 
-/* Style du bouton du toggler */
-.navbar-toggler {
-  border: none; /* Supprime la bordure */
+.btn-green:hover {
+  background-color: darkblue;
 }
-
-/* Couleur de fond du menu déroulant */
-.navbar-light .navbar-toggler-icon {
-  background-color: #333333; /* Couleur de fond */
-}
-
-/* Couleur du texte du menu déroulant */
-.navbar-light .navbar-toggler-icon {
-  background-color: #333333; /* Couleur de fond */
-}
-
