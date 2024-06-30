@@ -17,13 +17,17 @@ export class GlucoseReadingService {
     return this.http.post<GlucoseReading>(this.apiUrl , glucoseReading)
   }
 
-  deleteGlucoseReading(id: number): Observable<void>{
-    return this.http.delete<void>(${this.apiUrl}/${id});
+  deleteGlucoseReading(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/${id}`)
   }
 
 
   updateGlucoseReading(id: number, glucoseReading: GlucoseReading): Observable<GlucoseReading> {
-    return this.http.put<GlucoseReading>(${this.apiUrl}/${id}, glucoseReading);
+    return this.http.put<GlucoseReading>(`${this.apiUrl}/${id}`, glucoseReading)
+  }
+
+  getGlucoseReadingById(id:number):Observable<GlucoseReading>{
+    return this.http.get<GlucoseReading>(`${this.apiUrl}/${id}`)
   }
 
 }

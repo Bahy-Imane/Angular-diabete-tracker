@@ -1,10 +1,7 @@
 export class GlucoseReading {
+  gId ! :number;
+  dateAndTime !:Date;
+  level !:number;
 
-  constructor(public gId  :number,
-              public dateAndTime :Date,
-              public level :number) {}
 
 }
-
-
-

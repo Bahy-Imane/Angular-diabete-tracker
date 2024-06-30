@@ -21,12 +21,12 @@ public class GlucoseReadingService {
         return glucoseReadingRepository.save(glucoseReading);
     }
 
-//    public GlucoseReading updateGlucoseReading(Long id ,GlucoseReading glucoseReading) {
-//            glucoseReading.setGId(id);
-//            return glucoseReadingRepository.save(glucoseReading);
-//    }
     public void deleteGlucoseReadingById(Long id) {
         glucoseReadingRepository.deleteById(id);
 
+    }
+
+    public GlucoseReading getGlucoseReadingById(Long id) {
+        return glucoseReadingRepository.findById(id).orElse(null);
     }
 }

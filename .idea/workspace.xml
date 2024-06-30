@@ -5,27 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2c9670-8a45-4c76-9f0c-f417acdb2344" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/DiabetsTrackerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/Repository/GlucoseReadingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/controller/GlucoseReadingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/model/GlucoseReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/services/GlucoseReadingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/diagrammes/diagrammeCasUtilisations.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/diagrammes/diagrammeClass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/diagrammes/diagrammeSequence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/templates/add_glucose_reading.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/templates/advice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/templates/chart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/templates/glucose_readings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/com/diabets/DiabetsTracker/DiabetsTrackerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiabetsTracker2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/controller/GlucoseReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/controller/GlucoseReadingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/services/GlucoseReadingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/diabets/DiabetsTracker/services/GlucoseReadingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-edit/glucose-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-edit/glucose-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-edit/glucose-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-edit/glucose-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-form/glucose-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-form/glucose-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-form/glucose-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-form/glucose-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-list/glucose-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-list/glucose-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-list/glucose-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/glucose-list/glucose-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/model/glucose-reading.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/model/glucose-reading.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/service/glucose-service.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/service/glucose-service.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diabete--tracker/src/app/service/glucose-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/diabete--tracker/src/app/service/glucose-service.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719761286278</updated>
-      <workItem from="1719761288101" duration="2019000" />
+      <workItem from="1719761288101" duration="14526000" />
     </task>
     <servers />
   </component>

@@ -1,1 +1,27 @@
-<p>glucose-list works!</p>
+<div>
+  <h2>Liste des lectures de glucose</h2>
+
+
+  <table>
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Date and Time</th>
+      <th>Level</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let glucoseReading of glucoseReadings">
+      <td>{{ glucoseReading.gId }}</td>
+      <td>{{ glucoseReading.dateAndTime }}</td>
+      <td>{{ glucoseReading.level }}</td>
+      <td>
+        <a class="btn btn-primary" [routerLink]="['/update-glucose', glucoseReading.gId]">Update Register Glucose</a>
+        <button class="btn btn-danger" type="button" (click)="deleteGlucose(glucoseReading.gId)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+

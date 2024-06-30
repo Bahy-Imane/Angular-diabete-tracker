@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:55289")
 @RestController
 @RequestMapping("/api/glucose")
 public class GlucoseReadingController {
@@ -36,5 +36,10 @@ public class GlucoseReadingController {
     @DeleteMapping("/{id}")
     public void deleteGlucoseReadingById(@RequestParam Long id) {
         glucoseReadingService.deleteGlucoseReadingById(id);
+    }
+
+    @GetMapping("/{id}")
+    public GlucoseReading getGlucoseReadingById(@PathVariable Long id) {
+        return glucoseReadingService.getGlucoseReadingById(id);
     }
 }
